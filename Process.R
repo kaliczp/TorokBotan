@@ -1,5 +1,5 @@
 ## R honlap : https://www.r-project.org/
-## A program letöltése CRAN ról
+## A program letöltése CRAN ról csak először
 install.packages("lidR")
 ## Csomag betöltése
 library(lidR)
