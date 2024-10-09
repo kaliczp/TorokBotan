@@ -10,8 +10,8 @@ las
 plot(las)
 plot(las, color = "RGB")
 
-subset1 <- clip_rectangle(las, 618058.5, 5281838, 618534.4, 5282139)
-
+subset1 <- clip_rectangle(las, 618250, 5281925, 618334, 5282000)
+plot(subset1, color = "RGB")
 
 ## Canopy
 chm <- rasterize_canopy(las, 0.5, pitfree(subcircle = 0.2))
