@@ -1,6 +1,7 @@
 library(lidR)
 las <- readLAS("only.laz")
 plot(las, color = "RGB")
+plot(las, color = "RGB", size = 5)
 
 ## Canopy
 chm <- rasterize_canopy(las, 0.5, pitfree(subcircle = 0.2))
