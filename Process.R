@@ -6,3 +6,7 @@ library(lidR)
 ## Fájl beolvasás és jellemzők
 las <- readLAS("lidars/terra_las/cloud619adf4281ddc50.las")
 las
+## Nézegetés
+plot(las)
+plot(las, color = "RGB")
+
